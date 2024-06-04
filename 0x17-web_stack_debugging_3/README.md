@@ -7,6 +7,8 @@ The problem with this webstack is that the Apache server is returning error code
 
 # Findings
 After some investigation using strace, I found that the issue was with a configuration file for the Apache server.
+![789](https://github.com/Obrempong12/alx-system_engineering-devops/assets/144380171/ed74dadd-154e-4514-a8e3-20f459524c44)
+
 The misconfiguration was in the file /var/www/html/wp-settings.php. The issue was that the file was trying to include another file that did not exist. The file that was missing was wp-config.phpp, but the file that needed to be included was wp-config.php. This was causing the server to return error code 500.
 
 This is the line that was causing the issue:
@@ -19,6 +21,7 @@ require_once( ABSPATH . WPINC . '/class-wp-locale-switcher.phpp' );
 To fix the issue, I simply had to change the file name in the require_once statement from class-wp-locale-switcher.phpp to class-wp-locale-switcher.php.
 
 After making this change, the server was able to start and the website was accessible again.
+![123](https://github.com/Obrempong12/alx-system_engineering-devops/assets/144380171/1d009c95-4738-42e6-b732-cb41110e2815)
 
 ## Author
 * Peter Kwesi Obrempong Stephenson [https://github.com/Obrempong12/]
