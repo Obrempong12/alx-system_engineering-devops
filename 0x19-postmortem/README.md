@@ -1,6 +1,7 @@
 ## 0x19. Postmortem
 ---
 # ShopMate Outage Postmortem
+![image](https://github.com/Obrempong12/alx-system_engineering-devops/assets/144380171/2b16745b-44a2-471d-88de-60cd17866f77)
 
 ## Issue Summary
 **Duration of Outage:**  
@@ -49,12 +50,12 @@ The Database team rolled back the configuration to the previous stable state. Af
 ---
 
 ### Visual Summary
-
+![image](https://github.com/Obrempong12/alx-system_engineering-devops/assets/144380171/e347db40-eccc-41af-8165-1c80fb6a87d4)
 
 #### Humorous Note:
 "Who knew that one tiny comma in the database config could make such a big 'splat'? Next time, we'll double-check before hitting 'Save'."
 
 ## Contributors
-** Peter Kwesi Obrempong Stephenson <https://github.com/Obrempong12/>
+* Peter Kwesi Obrempong Stephenson <https://github.com/Obrempong12/>
 
 ---
