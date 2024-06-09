@@ -56,6 +56,6 @@ The Database team rolled back the configuration to the previous stable state. Af
 "Who knew that one tiny comma in the database config could make such a big 'splat'? Next time, we'll double-check before hitting 'Save'."
 
 ## Contributors
-* Peter Kwesi Obrempong Stephenson <https://github.com/Obrempong12/>
+* Peter Kwesi Obrempong Stephenson [<https://github.com/Obrempong12/>]
 
 ---
