@@ -1,5 +1,6 @@
 ## 0x1A. Application server
 ---
+![image](https://github.com/Obrempong12/alx-system_engineering-devops/assets/144380171/f7d98c7a-d4e8-4247-8987-035a2418f761)
 
 ## Background Context
 Your web infrastructure is already serving web pages via Nginx that you installed in your first web stack project. While a web server can also serve dynamic content, this task is usually given to an application server. In this project you will add this piece to your infrastructure, plug it to your Nginx and make is serve your Airbnb clone project.
