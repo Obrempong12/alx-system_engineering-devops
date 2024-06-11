@@ -1,5 +1,6 @@
 ## 0x1B. Web stack debugging #4
 ---
+![image](https://github.com/Obrempong12/alx-system_engineering-devops/assets/144380171/718749cc-f927-479f-8285-f4826909e7e6)
 
 ## Tasks
 0. Sky is the limit, let's bring that limit higher
